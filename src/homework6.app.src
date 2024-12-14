@@ -1,0 +1,12 @@
+{application, homework6,
+    [
+        {description, "Erlang Homework 6"},
+        {vsn, "1.0.0"},
+        {registered, [homework6_server]},
+        {modules, [homework6_app,
+            homework6_sup,
+            homework6_server]},
+        {applications, [kernel, stdlib]},
+        {mod, {homework6_app, []}},
+        {env, []}
+    ]}.
